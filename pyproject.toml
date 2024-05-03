@@ -17,7 +17,7 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 dependencies = [
-  "pandas>=2.2.2",
+  "pandas",
   "numpy>=1.26.4",
   "matplotlib-inline>=0.1.6",
   "google-api-core>=2.18.0",
