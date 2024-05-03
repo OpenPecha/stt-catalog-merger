@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "project_name"
+name = "stt_catalog_merger"
 version = "0.0.1"
 authors = [
   { name="OpenPecha", email="dev@openpecha.org" },
@@ -16,7 +16,23 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
-
+dependencies = [
+  "pandas",
+  "numpy",
+  "matplotlib-inline>=0.1.6",
+  "google-api-core>=2.18.0",
+  "google-api-python-client>=2.125.0",
+  "google-auth>=2.29.0",
+  "google-auth-httplib2>=0.2.0",
+  "google-auth-oauthlib>=1.2.0",
+  "googleapis-common-protos>=1.63.0",
+  "httplib2>=0.22.0",
+  "oauthlib>=3.2.2",
+  "requests>=2.31.0",
+  "requests-oauthlib>=2.0.0",
+  "protobuf>=4.25.3",
+  "urllib3>=2.2.1"
+]
 [project.optional-dependencies]
 dev = [
     "pytest",
