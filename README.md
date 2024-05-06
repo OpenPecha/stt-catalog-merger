@@ -11,8 +11,58 @@
 
 ## Description
 
-Project description goes here.
+![alt text](data/stt_doc.png "Optional title")
 
+# Departments and its meta data added in the finla csv files:
+1. STT_PC : [
+                "Publishing year",
+                "Channel",
+                "Auidio Quality",
+                "Country",
+                "Gender",
+                "Age Group",
+                "uploaded"]
+   
+3. STT_TT : [
+                "Teacher",
+                "Topic",
+                "Audio Duration",
+                "Group",
+            ]
+   
+4. STT_MV : [
+                "Name of the movie",
+                "Subtitle",
+                "Repo Link",
+                "Duration",
+            ]
+   
+5. STT_NS : [
+               "Date",
+                "Time ",
+                "Mic/Phone",
+                "Location ",
+                "Topic ",
+                "ID",
+                "Speaker ID",
+                "Gender",
+                "Audio Duration",
+                "Group",
+                "Pecha Tools",
+                "A Short Scenario ",
+                "Sum"    ]
+   
+6. STT_AB : [
+                "ID",
+                "Collection",
+                "Book Title",
+                "Category",
+                "Duration",
+                "Recorder",
+                "pecha.tools",
+                "Music",
+                "Book URL"   ]
+   
 ## Project owner(s)
 
 <!-- Link to the repo owners' github profiles -->
