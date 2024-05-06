@@ -13,7 +13,7 @@
 
 ![alt text](data/stt_doc.png "Optional title")
 
-# Departments and its meta data added in the finla csv files:
+# Departments and its meta data added in the final csv files:
 1. STT_PC : [
                 "Publishing year",
                 "Channel",
@@ -50,9 +50,10 @@
                 "Group",
                 "Pecha Tools",
                 "A Short Scenario ",
-                "Sum"    ]
+                "Sum",
+                "Gender"    ]
    
-6. STT_AB : [
+7. STT_AB : [
                 "ID",
                 "Collection",
                 "Book Title",
